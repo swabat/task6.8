@@ -3,7 +3,7 @@ const submitButton = document.querySelector('#submitButton');
 const duplicateField = document.querySelector('#duplicateField');
 
 
-textField.addEventListener('keyup', (event) => {
+textField.addEventListener('input', (event) => {
     duplicateField.textContent = event.target.value;
 })
 

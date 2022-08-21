@@ -1,6 +1,7 @@
 const trafficLightEl_1 = document.querySelector('#trafficLight1');
 const trafficLightEl_2 = document.querySelector('#trafficLight2');
 const trafficLightEl_3 = document.querySelector('#trafficLight3');
+
 backgroundBlack = (trafficLightEl) => (trafficLightEl).style.background = ('black');
 
 

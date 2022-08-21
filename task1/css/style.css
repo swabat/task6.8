@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background:url('../css/images/background.jpg') center center no-repeat fixed;
+    background-size: cover;
+    color: #1C1A30;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+p {
+    margin-top: 40vh;
+    padding: 20px;
+    
+    width: 100wv;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+
+a  {
+    text-decoration: none;
+    padding: 15px;
+    color: #1C1A30;
+}
+
+a::before {
+    content: '\27AD';
+    font-weight: 400;
+    font-size: 22px;
+}
+
+
+a:hover {
+    color: #d0db39;
+}

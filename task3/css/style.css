@@ -1,0 +1,45 @@
+*{
+  margin: 0px;
+}
+
+#trafficLight {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: black;
+
+    margin-left: 45%;
+  }
+
+body {
+
+  background:url('../css/images/background.jpg') center center no-repeat fixed;
+  background-size: cover;
+   
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.container{
+  margin-top: 20vh;
+  padding: 30px;
+
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+a {
+  padding: 15px;
+  color: #1C1A30;
+  text-decoration: none;
+}
+
+a::before {
+    content: '\27AD';
+    font-weight: 400;
+    font-size: 22px;
+}
+
+
+a:hover {
+    color: #e8f52c;
+}

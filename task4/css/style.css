@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+body {
+  background:url('../css/images/background.jpg') center center no-repeat fixed;
+  background-size: cover;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#toContent {
+    padding: 10px;
+    color: #1C1A30;
+    text-decoration: none;
+  
+    font-size: 20px;
+  }
+  
+#toContent::before {
+    content: '\27AD';
+    font-weight: 400;
+    font-size: 22px;
+  }
+  
+  
+#toContent:hover {
+    color: #c75b03;
+  }
+
+#textForChange {
+    display: block;
+    margin-top: 30vh;
+    padding: 30px;
+
+    text-decoration: none;
+    color: #1C1A30;  
+
+    background-color: rgb(255, 255, 255, 0.5);
+    font-size: 26px;
+    text-align: center;
+  }
+  
+  #textForChange:hover {
+    color: #db3939;
+  }
